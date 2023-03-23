@@ -1,0 +1,90 @@
+.content_A4 {
+	height: 1171px;
+	width: 827px;
+	overflow: hidden;
+	margin-right: auto;
+	border: 1px solid #FFFFFF;
+	margin-left: auto;
+	text-transform: none;
+	clip: rect(0px,auto,0px,auto);
+	position: relative;
+	overflow-y: visible;
+	overflow-x: visible;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	background-color: #FFFFFF;
+	visibility: visible;
+	margin-top: 2px;
+}
+.content_A4_inv {
+	height: 1171px;
+	width: 827px;
+	overflow: visible;
+	margin-right: auto;
+	margin-left: auto;
+	text-transform: none;
+	clip: rect(0px,auto,0px,auto);
+	position: relative;
+	overflow-y: visible;
+	overflow-x: visible;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	border-style: none;
+}
+.content_A4_rotated {
+	transform: rotate(-90deg);
+	overflow: hidden;
+	border: 1px solid #FFFFFF;
+	text-transform: none;
+	clip: rect(0px,auto,0px,auto);
+	position: relative;
+	overflow-y: visible;
+	overflow-x: visible;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	width: 1171px;
+	height: 827px;
+	background-color: #FFFFFF;
+	top: 174px;
+	right: 173px;
+	visibility: visible;
+}
+.print {
+    transform: rotate(-90deg);
+    position: absolute;
+    visibility: visible;
+    left: -115px;
+    top: 150px;
+    overflow-x: visible;
+    overflow-y: visible;
+    outline: none;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border-collapse: collapse;
+    border-spacing: 0px 0px;
+    border: 1px solid #000000;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Calibri;
+    font-variant: normal;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    text-indent: 0px;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.print:hover {
+	background-color: #FFFFFF;
+	border: 1px solid #03E3DF;
+	color: #000000;
+} 
+.print:active {
+    background-color: #03E3DF;
+    border: 1px solid #00BBB8;
+    color: #000000;
+} 
